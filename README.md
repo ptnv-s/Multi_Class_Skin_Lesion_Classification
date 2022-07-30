@@ -20,6 +20,8 @@ We have used resnet18, densenet121, and vit_32_b as backbones, bceloss, and ASL 
 
 To evaluate the robustness and generalizability of the models, we have used the DDI dataset — the first publicly available, expertly curated, and pathologically confirmed image dataset with diverse skin tones. The motivation behind the creation of this dataset was that it was found that most dermatology datasets lack essential information about dataset diversity and have noisy diagnostic labels. Currently, publicly available datasets lack biopsy-proven skin lesions in dark skin tones.
 
+Since there was a difference in labels for DDI and ISIC19, we did manual grouping under the advice of an expert to create a version of DDI with eight classes.
+
 To explain our model predictions, we have used GradCam++ to create class-activation maps to see models focusing on various categories.
 
 
