@@ -14,6 +14,11 @@ This Project aims to benchmark various commonly used models for the task of clas
 
 The dataset has 25,331 images available for training across eight different categories of diseases. But the model must identify the 9th condition where none of the eight categories are formed.
 
+Distribution-
+
+![image](https://user-images.githubusercontent.com/72119231/198967851-37998036-2a20-4815-915a-986853c13c60.png)
+
+
 We have used various backbones followed by a fully connected layer and a sigmoid layer to get predictions for eight classes. If no types are found, all classes' predictions should be zero.
 
 We have used vgg19,resnet50, densenet121, and vit_32_b as backbones, bceloss, and ASL loss as two variants of loss functions, Adam optimizer with learning rate scheduler and mean of classwise AUC-roc score and accuracy for evaluation.
