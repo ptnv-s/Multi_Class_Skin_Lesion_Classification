@@ -134,6 +134,24 @@ Mean (Average Voting)
 ![image](https://user-images.githubusercontent.com/72119231/198964834-3460a219-106c-4317-9ce7-74192e82c40e.png)
 
 
+#### Confusion Matrix of DenseNet-121 - Hair Preprocessed
+![image](https://user-images.githubusercontent.com/72119231/198966827-93650e30-fdaf-4d9f-ba02-84c5bf762d09.png)
+
+Gradcam
+
+![image](https://user-images.githubusercontent.com/72119231/198967092-5055a2a5-607f-4c16-8990-3e5daf83b72c.png)
+
+
+
+#### Confusion Matrix of DenseNet-121 - Hair+Segmentation Preprocessed
+![image](https://user-images.githubusercontent.com/72119231/198966934-6d9dba95-a293-4006-8734-5e43686afb0d.png)
+
+
+Gradcam
+
+![image](https://user-images.githubusercontent.com/72119231/198967140-eb612899-6cec-4905-ac36-5cd76f37b16d.png)
+
+
 ## Analysis:
 We tried out various baselines models along with an ensemble of the baselines and a combination of different baselines using focal-loss as the loss function for optimizing our models .
 
