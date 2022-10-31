@@ -137,8 +137,8 @@ Mean (Average Voting)
 #### Confusion Matrix of DenseNet-121 - Hair Preprocessed
 ![image](https://user-images.githubusercontent.com/72119231/198966827-93650e30-fdaf-4d9f-ba02-84c5bf762d09.png)
 
-Gradcam
 
+#### Gradcam++ XAI of DenseNet-121 - Hair Preprocessed
 ![image](https://user-images.githubusercontent.com/72119231/198967092-5055a2a5-607f-4c16-8990-3e5daf83b72c.png)
 
 
@@ -147,8 +147,9 @@ Gradcam
 ![image](https://user-images.githubusercontent.com/72119231/198966934-6d9dba95-a293-4006-8734-5e43686afb0d.png)
 
 
-Gradcam
 
+
+#### Gradcam++ XAI of DenseNet-121 - Hair+Segmentation Preprocessed
 ![image](https://user-images.githubusercontent.com/72119231/198967140-eb612899-6cec-4905-ac36-5cd76f37b16d.png)
 
 
